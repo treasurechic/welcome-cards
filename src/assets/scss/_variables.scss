@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "lato-bd";
+  src: url("../fonts/lato/Lato-Bold.ttf");
+}
+
+@font-face {
+  font-family: "lato-md";
+  src: url("../fonts/lato/Lato-Medium.ttf");
+}
+
+@font-face {
+  font-family: "lato-rg";
+  src: url("../fonts/lato/Lato-Regular.ttf");
+}
+
+$green-400: #1aaeae;
+
+// Neutrals & Shades
+$white-100: #ffffff;
+$grey-100: #f3f3f3;
+$grey-200: #949291;
+$grey-500: #212121;
+
+$font-bd: "lato-bd", sans-serif;
+$font-md: "lato-md", sans-serif;
+$font-rg: "lato-rg", sans-serif;

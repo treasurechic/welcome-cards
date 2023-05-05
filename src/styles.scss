@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "assets/scss/variables";
+
+// Note: 1rem = 10px
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  @media (max-width: 992px) {
+    font-size: 50%;
+  }
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: $font-rg;
+  font-weight: 400;
+  color: $grey-200;
+  background-color: $grey-100;
+}
+
+.container {
+  width: 80%;
+  margin-inline: auto;
+  @media (max-width: 1000px) {
+    width: 95%;
+  }
+}
